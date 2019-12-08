@@ -1,0 +1,4 @@
+#!/usr/bin/dh-exec
+rn-files/* apps/calibre-web
+git-files/* apps/calibre-web
+# lib-files/* apps/calibre-web/lib

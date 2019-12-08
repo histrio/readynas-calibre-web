@@ -1,0 +1,20 @@
+Source: calibre-web
+Section: contrib
+Priority: extra
+Maintainer: histrio <rinat.sabitov@gmail.com>
+Build-Depends: debhelper (>= 8.0.0),
+               git
+Standards-Version: 3.9.6
+Homepage: https://github.com/janeczku/calibre-web
+
+Package: calibre-web
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         readynasos (>= 6.1.0),
+         php5-sqlite,
+         python (>= 2.7.3-4+deb7u1),
+         python-pip,
+         git
+Description: CalibreWeb
+ Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.

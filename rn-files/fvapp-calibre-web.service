@@ -1,0 +1,16 @@
+[Unit]
+Description=Service for calibre web app
+
+[Service]
+Environment=PYTHONPATH=/apps/calibre-web/lib
+Environment=CALIBRE_DBPATH=/apps/calibre-web/app-config
+Environment=CALIBRE_PORT=6768
+
+ExecStart=/usr/bin/python /apps/calibre-web/cps.py
+Restart=always
+Nice=18
+User=admin
+Group=admin
+
+[Install]
+WantedBy=multi-user.target

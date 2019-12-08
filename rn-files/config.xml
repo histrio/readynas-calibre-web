@@ -1,0 +1,14 @@
+<Application resource-id="calibre-web"><!-- 'resource-id' must be AppName -->
+  <Category>APP_CAT_PRODUCTIVITY</Category>
+  <Name>CalibreWeb</Name>
+  <Author>histrio</Author>
+  <Version>0.6.4</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:6768/</LaunchURL>
+  <ReservePort>6768</ReservePort>
+  <InfoURL>https://github.com/janeczku/calibre-web/</InfoURL>
+  <DebianPackage>calibre-web</DebianPackage>
+  <ServiceName>fvapp-calibre-web.service</ServiceName>
+  <Description lang="en-us">Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.</Description>
+</Application>

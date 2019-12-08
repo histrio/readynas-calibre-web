@@ -1,0 +1,4 @@
+calibre-web: non-standard-toplevel-dir apps/
+calibre-web: file-in-unusual-dir apps/calibre-web/*
+calibre-web: script-not-executable apps/calibre-web/*
+calibre-web: executable-not-elf-or-script apps/calibre-web/*
